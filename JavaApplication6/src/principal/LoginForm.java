@@ -158,9 +158,11 @@ public class LoginForm extends javax.swing.JFrame {
         if(jCheckBox1.isSelected()){
             jPasswordField1.setEchoChar('\u0000');
             jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/principal/ocultarSenha.png")));
+            jCheckBox1.setText("Ocultar Contraseña");
         }else{
             jPasswordField1.setEchoChar(contrasena);
             jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/principal/exibirSenha.png")));
+            jCheckBox1.setText("Mostrar Contraseña");
         }
     }//GEN-LAST:event_jCheckBox1ActionPerformed
 
